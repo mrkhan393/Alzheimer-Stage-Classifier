@@ -1,0 +1,5 @@
+Flask==2.3.3
+tensorflow==2.15.0
+web3==6.11.5
+python-dotenv==1.0.1
+Pillow==10.3.0
