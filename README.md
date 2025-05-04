@@ -39,7 +39,7 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 .
 ├── app.py # Main Flask backend
 ├── model.keras # Trained MRI classification model
