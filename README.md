@@ -6,7 +6,7 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 
 ---
 
-## 🔍 What It Does
+## What It Does
 
 1. You upload a brain MRI image.
 2. The system checks if it really looks like an MRI (not a random cat photo 😸).
@@ -16,25 +16,25 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 
 ---
 
-## 🧰 Technologies Used
+## Technologies Used
 
-### 🧠 AI & Image Processing
+### AI & Image Processing
 - **Python**
 - **TensorFlow / Keras** – to load the trained model.
 - **Pillow** – to handle images (convert to grayscale, resize, etc).
 - **NumPy** – to prepare image arrays.
 - **imagehash** – to compare the uploaded image with real MRI examples.
 
-### 🌐 Backend & Web Server
+### Backend & Web Server
 - **Flask** – the backend server for prediction and blockchain interaction.
 - **dotenv** – to load private keys and secrets safely.
 
-### ⛓️ Blockchain
+### Blockchain
 - **Solidity** – smart contract (`NFTStorage.sol`) to store prediction NFTs.
 - **Web3.py** – to talk to the Ethereum blockchain from Python.
 - **Hardhat** – to run a local Ethereum network and deploy the contract.
 
-### 💻 Frontend
+### Frontend
 - **HTML + CSS + JavaScript** – minimal UI to upload images and view results.
 
 ---
@@ -53,7 +53,7 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 
 ---
 
-## 🚀 How to Run This Locally
+##  How to Run This Locally
 
 > Make sure you have Python and Node.js installed.
 
@@ -62,7 +62,7 @@ It’s like a brain scan doctor that gives you a prediction and saves it on the 
 git clone https://github.com/your-username/mri-nft-classifier.git
 cd mri-nft-classifier
 
-2. Set up Python environment
+### 2. Set up Python environment
 pip install -r requirements.txt
 
 Create a .env file and add:
@@ -70,23 +70,23 @@ PRIVATE_KEY=your_private_key
 ACCOUNT_ADDRESS=your_account_address
 CONTRACT_ADDRESS=your_deployed_contract_address
 
-3. Start the blockchain (Hardhat)
+### 3. Start the blockchain (Hardhat)
 In a separate terminal:
 npx hardhat node
 
 And deploy the smart contract:
 npx hardhat run scripts/deploy.js --network localhost
 
-4. Run the Flask server
+### 4. Run the Flask server
 python app.py
 
-5. Open the app
+### 5. Open the app
 Visit http://localhost****** in your browser.
 
-🧪 Testing
+## Testing
 Try uploading:
 
 A real MRI image →  Should give prediction + NFT hash.
 A random image →  Should predict as unidentified.
 
-Notice: This project was built to show how AI and blockchain can work together — combining health predictions with the trust and transparency of decentralized storage. Feel free to reach out if you have questions or ideas!
+# Notice: This project was built to show how AI and blockchain can work together — combining health predictions with the trust and transparency of decentralized storage. Feel free to reach out if you have questions or ideas!
