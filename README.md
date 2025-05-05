@@ -89,4 +89,4 @@ Try uploading:
 A real MRI image →  Should give prediction + NFT hash.
 A random image →  Should predict as unidentified.
 
-# Notice: This project was built to show how AI and blockchain can work together, combining health predictions with the trust and transparency of decentralized storage. Feel free to reach out if you have questions or ideas!
+# Notice: This project was built to show how AI and blockchain can work together, combining health predictions with the trust and transparency of decentralized storage. The model is not well trained. The model need to be retrained with fine tuning. Feel free to reach out if you have questions or ideas!
