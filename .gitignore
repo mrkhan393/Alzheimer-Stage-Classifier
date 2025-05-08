@@ -4,6 +4,7 @@
 __pycache__/
 *.pkl
 *.h5
+*.keras
 
 # Environments
 .env
