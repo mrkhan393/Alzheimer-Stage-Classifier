@@ -118,7 +118,7 @@ Contributions, issues, and feature requests are welcome. Feel free to check the 
 
 ## License
 
-This project currently has no license specified. Add a `LICENSE` file if you intend to open-source it under a specific license (e.g., MIT).
+This project currently has no license specified.
 
 ## Acknowledgements
 
